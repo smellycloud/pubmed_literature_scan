@@ -2,7 +2,7 @@
 
 This project aims to replicate the state-of-the-art neural network model presented in the paper "Neural Networks for Joint Sentence Classification in Medical Paper Abstracts." 
 
-The original paper addresses the challenge of efficiently classifying sentences in unstructured medical abstracts, providing a valuable tool for information extraction.
+The original paper addresses the challenge of efficiently classifying sentences in unstructured medical abstracts, providing a valuable tool for information extraction. Model 5 incorporates additional improvements.
 
 # Metrics
 | Model Architecture                                                               | accuracy | precision | recall | f1    |
