@@ -14,10 +14,10 @@ The original paper addresses the challenge of efficiently classifying sentences 
 | Pretrained Token Embeddings + Character Level Embeddings                         | 69.22    | 0.707     | 0.692  | 0.689 |
 | Pretrained Token Embeddings + Character Level Embeddings + Positional Embeddings (10% data) | 78.65    | 0.798     | 0.786  | 0.783 |
 
-### Model 5 architecture
+### Model 6 architecture
 ![model](https://github.com/smellycloud/pubmed_literature_scan/assets/52908667/f08f64b7-4c7e-4bc7-8f48-d6dcae25287e)
 
-### Model 4 architecture
+### Model 5 architecture
 ![model4](https://github.com/smellycloud/pubmed_literature_scan/assets/52908667/5695541d-2dfc-404a-8ad2-c38603227cfe)
 
 
