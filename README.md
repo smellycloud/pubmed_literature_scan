@@ -2,7 +2,7 @@
 
 This project aims to replicate the state-of-the-art neural network model presented in the paper "Neural Networks for Joint Sentence Classification in Medical Paper Abstracts." 
 
-The original paper addresses the challenge of efficiently classifying sentences in unstructured medical abstracts, providing a valuable tool for information extraction. Model 5 incorporates additional improvements.
+The original paper addresses the challenge of efficiently classifying sentences in unstructured medical abstracts, providing a valuable tool for information extraction. Model 5 incorporates additional improvements to capture the relative positions of sentences in the abstracts.
 
 # Metrics
 | Model Architecture                                                               | accuracy | precision | recall | f1    |
@@ -12,7 +12,7 @@ The original paper addresses the challenge of efficiently classifying sentences 
 | Univeral Sentence Encoder                                                        | 69.78    | 0.697     | 0.6978 | 0.694 |
 | Conv1D + Character Level Embeddings                                              | 66.16    | 0.652     | 0.661  | 0.651 |
 | Pretrained Token Embeddings + Character Level Embeddings                         | 69.22    | 0.707     | 0.692  | 0.689 |
-| Pretrained Token Embeddings + Character Level Embeddings + Positional Embeddings (20% data) | 78.65    | 0.798     | 0.786  | 0.783 |
+| Pretrained Token Embeddings + Character Level Embeddings + Positional Embeddings (10% data) | 78.65    | 0.798     | 0.786  | 0.783 |
 
 ### Model 5 architecture
 ![model](https://github.com/smellycloud/pubmed_literature_scan/assets/52908667/f08f64b7-4c7e-4bc7-8f48-d6dcae25287e)
